@@ -21,3 +21,4 @@ st.plotly_chart(fig)
 top3 = df[df['year']==year].iloc[:3]
 fig = px.bar(top3, x='university_name', y=['citations', 'teaching'], barmode='group')
 st.plotly_chart(fig)
+
